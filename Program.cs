@@ -12,8 +12,13 @@ namespace Calculator
             Console.Write("Enter an operator: ");
             string op = Console.ReadLine();
 
-            Console.Write("Enter a number: ");
+            Console.Write("Enter a second number: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if(op == "+")
+            {
+                Console.Write(num1 + num2);
+            }
         }
     }
 }
