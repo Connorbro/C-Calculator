@@ -19,6 +19,11 @@ namespace Calculator
             {
                 Console.Write(num1 + num2);
             }
+            else if(op == "-")
+            {
+                Console.Write(num1 - num2);
+            }
+
         }
     }
 }
